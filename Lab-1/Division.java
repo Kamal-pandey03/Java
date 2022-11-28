@@ -15,5 +15,6 @@ class Division{
 		}catch(InputMismatchException e){
 			System.out.println("No character in division!");
 		}
+		s.close();
 	}
 }

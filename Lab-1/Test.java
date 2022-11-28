@@ -11,6 +11,7 @@ class Test{
 		byte[] b=k.getBytes();
 		fout.write(b);
 		fout.close();
+		s.close();
 	}
 }
 		
