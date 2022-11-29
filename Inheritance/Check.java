@@ -1,4 +1,3 @@
-package p1;
 class Check{
 	private String s1="private of Check";
 	public static void main(String[] args){

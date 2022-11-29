@@ -9,7 +9,6 @@ class Address{
 		System.out.println("City: " + this.city  +"Ward: "+this.ward);
 	}
 }
-
 class Student{
 	String name;
 	int roll;
