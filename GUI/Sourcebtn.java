@@ -20,14 +20,16 @@ class Sourcebtn implements ActionListener{
         f.setLayout(null);
         f.setVisible(true);
         b.addActionListener(this);
+        b2.addActionListener(this);
     }
     public void actionPerformed(ActionEvent e){
         if(e.getSource()==b){
             t.setText("Button 1");
         }
-        else if(e.getSource()==b2){
+        else{
             t.setText("Button 2");
         }
+        //System.out.println(e.getSource());
     }
     public static void main(String[] args){
         new Sourcebtn();
