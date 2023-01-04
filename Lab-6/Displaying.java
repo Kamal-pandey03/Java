@@ -10,7 +10,6 @@ class Displaying{
         Connection cn=DriverManager.getConnection(url,"root","");
         Statement st=cn.createStatement();
         ResultSet rs=st.executeQuery("SELECT * FROM Students");
-        rs.next();
         while(rs.next()){
             System.out.println("Roll no: "+rs.getInt(1)+"\tName: "+rs.getString(2)+"\tFaculty: "+rs.getString(3));
         }
